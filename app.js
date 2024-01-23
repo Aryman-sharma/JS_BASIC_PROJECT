@@ -17,6 +17,13 @@ const decrement = () =>
      // vapis se value set kr di
      countvalue.innerText=value;
 }
+const reset =() =>
+{
+    let value = parseInt(countvalue.innerText);
+    value=0;
+    countvalue.innerText=value;
+
+}
 
 
 

@@ -42,14 +42,13 @@
   font-size: large;
   border: none;
   padding: 6px 6px;
-  font-family: "Rubik Maps", system-ui; 
+  font-family: "Rubik Maps", system-ui;
 }
 #fb {
   border-left: none;
   border-top: none;
   border-bottom: none;
   padding-right: 25px;
-  
   border-color: #e29a14;
 }
 #sb {
@@ -63,5 +62,22 @@ i {
   font-size: large;
 }
 button:hover {
+  cursor: pointer;
+}
+
+.rst {
+  display: flex;
+  justify-content: center;
+}
+.r2 {
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+  margin-top: 14px;
+  font-weight: bold;
+  color: #e29a14;
+  background-color: beige;
+  border: none;
+}
+.r2 :hover {
   cursor: pointer;
 }
