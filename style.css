@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap"); */
+
+.outer-most {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #344151;
+}
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 20px;
+  gap: 10px;
+  width: 20%;
+  height: 20%;
+  border-radius: 2px;
+  background-color: #344151;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: #d4a714;
+  font-family: "Rubik Maps", system-ui;
+  white-space: nowrap;
+}
+.icons {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 2px;
+  font-size: large;
+  border: none;
+  padding: 6px 6px;
+  font-family: "Rubik Maps", system-ui; 
+}
+#fb {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 25px;
+  
+  border-color: #e29a14;
+}
+#sb {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 25px;
+  border-color: #e29a14;
+}
+i {
+  font-size: large;
+}
+button:hover {
+  cursor: pointer;
+}
